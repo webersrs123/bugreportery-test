@@ -1,0 +1,4 @@
+(индекс):182 Uncaught SyntaxError: Identifier 'supabase' has already been declared (at (индекс):182:13)
+form.js:110 Uncaught TypeError: Cannot read properties of undefined (reading 'onAuthStateChange')
+    at HTMLDocument.<anonymous> (form.js:110:19)
+(анонимная) @ form.js:110
