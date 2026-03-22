@@ -1,0 +1,3 @@
+form.js:41 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'signUp')
+    at HTMLButtonElement.<anonymous> (form.js:41:57)
+(анонимная) @ form.js:41
