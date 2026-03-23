@@ -1,0 +1,20 @@
+Register clicked
+form.js:89 Inputs: {usernameInput: input#regUsername, emailInput: input#regEmail, passwordInput: input#regPassword, msgDiv: div#registerMessage}
+form.js:106 Calling signUp...
+form.js?v=3:82 Register clicked
+form.js?v=3:89 Inputs: {usernameInput: input#regUsername, emailInput: input#regEmail, passwordInput: input#regPassword, msgDiv: div#registerMessage}
+form.js?v=3:106 Calling signUp...
+index.js:1  POST https://qfurbgyuahfrwsrpyzzy.supabase.co/auth/v1/signup 500 (Internal Server Error)
+(анонимная) @ index.js:1
+c.headers @ index.js:1
+ie @ index.js:1
+signUp @ index.js:1
+(анонимная) @ form.js?v=3:107
+form.js:117 SignUp success: {user: {…}, session: null}
+form.js?v=3:114 SignUp error: AuthApiError: Database error saving new user
+    at se (index.js:1:1)
+    at async c.headers (index.js:1:1)
+    at async ie (index.js:1:1)
+    at async b.signUp (index.js:1:1)
+    at async HTMLButtonElement.<anonymous> (form.js?v=3:107:41)
+(анонимная) @ form.js?v=3:114

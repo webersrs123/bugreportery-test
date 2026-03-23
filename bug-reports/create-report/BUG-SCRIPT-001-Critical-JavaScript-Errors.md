@@ -36,6 +36,7 @@ at HTMLDocument.<анонимная> (form.js:110:19)
 Загрузка страницы не должна вызывать ошибок JavaScript. Все переменные и методы должны быть объявлены единожды и корректно инициализированы.
 
 ## Вложения
+
 - **Скриншот ошибок в консоли:** [bug-script-001-console-error.png](../attachments/create-report/bug-script-001-console-error.png)
 - **Лог консоли:** [bug-script-001-console-error.log](../attachments/create-report/bug-script-001-console-error.log)
 - **HAR-файл:** [bug-script-001-network.har](../attachments/create-report/bug-script-001-network.har)
