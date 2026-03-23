@@ -42,7 +42,7 @@
 - [BUG-SCRIPT-001](bug-reports/create-report/BUG-SCRIPT-001-Critical-JavaScript-Errors.md) – критические ошибки JS на главной (Critical)
 
 **Исправленные баги:**
-- [BUG-REG-001](bug-reports/reg-form/BUG-REG-001-Blocker-Registration.md) – кнопка регистрации не работала (Blocker, закрыт)
+- [BUG-REG-001](bug-reports/reg-form/BUG-REG-001-Blocker-Registration.md) – кнопка регистрации не работала (Blocker)
 - [BUG-REG-002](bug-reports/reg-form/BUG-REG-002-ModalFalseError.md) – ложная ошибка после успешной регистрации (Major)
 
 Каждый баг-репорт содержит:

@@ -4,8 +4,8 @@
 
 | ID | Проверка | Статус | Баг | Статус | Примечание |
 |----|----------|--------|---|---------|--------|
-| AUTH-001 | Регистрация с валидными данными | ✅ |[BUG-REG-001](../bug-reports\Reg-form\BUG-REG-001-Blocker-Registration.md) [BUG-REG-002](../bug-reports/Reg-form/BUG-REG-002-ModalFalseError.md) | Исправлен | Перенос сервиса подтверждения Email на Resend |
-| AUTH-002 | Регистрация с уже существующим email | ⬜ | Blocked | Зависит от исправления BUG-REG-002 |
+| AUTH-001 | Регистрация с валидными данными | ✅ |[BUG-REG-001](../bug-reports/Reg-form/BUG-REG-001-Blocker-Registration.md) [BUG-REG-002](../bug-reports/Reg-form/BUG-REG-002-ModalFalseError.md) | Исправлен | Перенос сервиса подтверждения Email на Resend |
+| AUTH-002 | Регистрация с уже существующим email | ❌ |[BUG_REG-003](../bug-reports/Reg-form/BUG-REG-003-DuplicateEmailNoError.md) | Открыт | Требует доработки фронтенда
 | AUTH-003 | Регистрация с невалидным email (без @, без домена) | ⬜ | – | |
 | AUTH-004 | Регистрация с коротким паролем (< минимума) | ⬜ | – | |
 | AUTH-005 | Регистрация с пустыми обязательными полями | ⬜ | – | |
