@@ -37,19 +37,22 @@
 | Модуль | Чек-лист | Статус | Найдено багов (открыто/всего) |
 |--------|----------|--------|-------------------------------|
 | Регистрация и авторизация | [regform.md](checklists/regform.md) | Завершён | 5 / 8 |
-| Создание баг-репорта | [create-report.md](checklists/create-report.md) | В процессе | 1 (блокируется скриптовыми ошибками) |
+| Создание баг-репорта | [create-report.md](checklists/create-report.md) | В процессе | 1 / 1 |
 
 **Открытые баги (модуль регистрации):**
-- [BUG-REG-006](../bug-reports/Reg-form/BUG-REG-006-no-redirect-after-login.md) – нет редиректа после входа (Major)
-- [BUG-REG-007](../bug-reports/Reg-form/BUG-REG-007-wrong-password-english.md) – сообщение о неверном пароле на английском (Minor)
-- [BUG-REG-008](../bug-reports/Reg-form/BUG-REG-008-logout-button-remains.md) – кнопка «Выход» остаётся после логаута (Minor)
-- [BUG-REG-009](../bug-reports/Reg-form/BUG-REG-009-no-password-recovery.md) – отсутствует восстановление пароля (Minor)
-- [BUG-REG-010](../bug-reports/Reg-form/BUG-REG-010-session-lost.md) – сессия не сохраняется после закрытия браузера (Major)
+- [BUG-REG-006](bug-reports/Reg-form/BUG-REG-006-no-redirect-after-login.md) – нет редиректа после входа (Major)
+- [BUG-REG-007](bug-reports/Reg-form/BUG-REG-007-wrong-password-english.md) – сообщение о неверном пароле на английском (Minor)
+- [BUG-REG-008](bug-reports/Reg-form/BUG-REG-008-logout-button-remains.md) – кнопка «Выход» остаётся после логаута (Minor)
+- [BUG-REG-009](bug-reports/Reg-form/BUG-REG-009-no-password-recovery.md) – отсутствует восстановление пароля (Minor)
+- [BUG-REG-010](bug-reports/Reg-form/BUG-REG-010-session-lost.md) – сессия не сохраняется после закрытия браузера (Major)
+
+**Открытые баги (другие модули):**
+- [BUG-SCRIPT-001](bug-reports/create-report/BUG-SCRIPT-001-Critical-JavaScript-Errors.md) – критические ошибки JS на главной (Critical)
 
 **Исправленные баги (модуль регистрации):**
-- [BUG-REG-001](../bug-reports/Reg-form/BUG-REG-001-Blocker-Registration.md) – кнопка регистрации не работала (Blocker)
-- [BUG-REG-002](../bug-reports/Reg-form/BUG-REG-002-ModalFalseError.md) – ложная ошибка после успешной регистрации (Major)
-- [BUG-REG-003](../bug-reports/Reg-form/BUG-REG-003-DuplicateEmailNoError.md) – регистрация с существующим email (Major)
+- [BUG-REG-001](bug-reports/Reg-form/BUG-REG-001-Blocker-Registration.md) – кнопка регистрации не работала (Blocker)
+- [BUG-REG-002](bug-reports/Reg-form/BUG-REG-002-ModalFalseError.md) – ложная ошибка после успешной регистрации (Major)
+- [BUG-REG-003](bug-reports/Reg-form/BUG-REG-003-DuplicateEmailNoError.md) – регистрация с существующим email (Major)
 
 **Другие модули:**
 - [BUG-SCRIPT-001](../bug-reports/create-report/BUG-SCRIPT-001-Critical-JavaScript-Errors.md) – критические ошибки JS на главной (Critical) – блокирует тестирование создания баг-репортов.
