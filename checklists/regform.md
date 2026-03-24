@@ -5,7 +5,7 @@
 
 | ID | Проверка | Статус | Баг | Примечание |
 |----|----------|--------|-----|------------|
-| AUTH-001 | Регистрация с валидными данными | ✅ | [BUG-REG-001](../bug-reports/Reg-form/BUG-REG-001-Blocker-Registration.md), [BUG-REG-002](../bug-reports/Reg-form/BUG-REG-002-ModalFalseError.md) | Исправлены |
+| AUTH-001 | Регистрация с валидными данными (email с доменом @qatest.tech) | ✅ | [BUG-REG-001](../bug-reports/Reg-form/BUG-REG-001-Blocker-Registration.md), [BUG-REG-002](../bug-reports/Reg-form/BUG-REG-002-ModalFalseError.md) | Исправлены. Регистрация успешна, пользователь создаётся. Работает клиентская проверка домена |
 | AUTH-002 | Регистрация с уже существующим email | ✅ | [BUG-REG-003](../bug-reports/Reg-form/BUG-REG-003-DuplicateEmailNoError.md) | Исправлен |
 | AUTH-003 | Регистрация с невалидным email (без @, без домена) | ✅ | – | |
 | AUTH-004 | Регистрация с коротким паролем (< минимума) | ✅ | – | |
