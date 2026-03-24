@@ -1,10 +1,10 @@
-# Тестирование веб-приложения Bug Reporter
+# Тестирование веб-приложения Bug Reportery
 
 **Сайт**: [https://bugreportery.qatest.tech](https://bugreportery.qatest.tech)  
 **Репозиторий тестовой документации**: [webersrs123/bugreportery-test](https://github.com/webersrs123/bugreportery-test)
 
 ## О проекте
-**Bug Reporter** – веб-приложение для создания и отслеживания баг-репортов.  
+**Bug Reportery** – веб-приложение для создания и отслеживания баг-репортов.  
 Стек: статический фронтенд (GitHub Pages), бэкенд и БД – **Supabase** (аутентификация, таблицы, политики RLS).  
 В рамках портфолио проводится **полное тестирование** приложения, включая:
 
@@ -15,12 +15,12 @@
 - **Регрессионное тестирование**
 
 ## Инструменты
-- Ручное тестирование (функциональное, UI/UX, исследовательское)
-- Postman (коллекции API-тестов, автоматизация проверок)
-- Браузерные DevTools (сеть, консоль, эмуляция устройств)
-- Supabase Dashboard (просмотр таблиц, логов аутентификации, политик)
-- Git + GitHub (оформление тестовой документации)
-
+- **Ручное тестирование** (функциональное, UI/UX, исследовательское)
+- **Postman** – коллекции API-тестов, автоматизация проверок
+- **Браузерные DevTools** – сеть, консоль, эмуляция устройств
+- **Supabase Dashboard** – просмотр таблиц, логов аутентификации, политик
+- **VS Code** – редактор кода и Markdown, работа с Git, предпросмотр документации, написание баг-репортов и чек-листов
+- **Git + GitHub** – хранение тестовой документации, управление версиями
 
 ## API-тестирование (Postman)
 Коллекция Postman будет содержать:
@@ -33,17 +33,25 @@
 
 ## Текущий статус тестирования
 
-| Модуль | Чек-лист | Статус | Найдено багов |
-|--------|----------|--------|---------------|
-| Регистрация и авторизация | [regform.md](checklists/regform.md) | Блокирующий баг (REG-002) | 2 (2 исправлен, 0 открыт) |
-| Создание баг-репорта | [create-report.md](checklists/create-report.md) | В процессе | 0 (блокируется скриптовыми ошибками) |
+| Модуль | Чек-лист | Статус | Найдено багов (открыто/всего) |
+|--------|----------|--------|-------------------------------|
+| Регистрация и авторизация | [regform.md](checklists/regform.md) | Завершён | 5 / 8 |
+| Создание баг-репорта | [create-report.md](checklists/create-report.md) | В процессе | 1 / 1 |
 
-**Открытые баги:**
+**Открытые баги (модуль регистрации):**
+- [BUG-REG-006](bug-reports/Reg-form/BUG-REG-006-no-redirect-after-login.md) – нет редиректа после входа (Major)
+- [BUG-REG-007](bug-reports/Reg-form/BUG-REG-007-wrong-password-english.md) – сообщение о неверном пароле на английском (Minor)
+- [BUG-REG-008](bug-reports/Reg-form/BUG-REG-008-logout-button-remains.md) – кнопка «Выход» остаётся после логаута (Minor)
+- [BUG-REG-009](bug-reports/Reg-form/BUG-REG-009-no-password-recovery.md) – отсутствует восстановление пароля (Minor)
+- [BUG-REG-010](bug-reports/Reg-form/BUG-REG-010-session-lost.md) – сессия не сохраняется после закрытия браузера (Major)
+
+**Открытые баги (другие модули):**
 - [BUG-SCRIPT-001](bug-reports/create-report/BUG-SCRIPT-001-Critical-JavaScript-Errors.md) – критические ошибки JS на главной (Critical)
 
-**Исправленные баги:**
-- [BUG-REG-001](bug-reports/reg-form/BUG-REG-001-Blocker-Registration.md) – кнопка регистрации не работала (Blocker)
-- [BUG-REG-002](bug-reports/reg-form/BUG-REG-002-ModalFalseError.md) – ложная ошибка после успешной регистрации (Major)
+**Исправленные баги (модуль регистрации):**
+- [BUG-REG-001](bug-reports/Reg-form/BUG-REG-001-Blocker-Registration.md) – кнопка регистрации не работала (Blocker)
+- [BUG-REG-002](bug-reports/Reg-form/BUG-REG-002-ModalFalseError.md) – ложная ошибка после успешной регистрации (Major)
+- [BUG-REG-003](bug-reports/Reg-form/BUG-REG-003-DuplicateEmailNoError.md) – регистрация с существующим email (Major)
 
 Каждый баг-репорт содержит:
 - Шаги воспроизведения
