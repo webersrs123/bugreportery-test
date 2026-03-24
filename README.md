@@ -1,10 +1,10 @@
-# Тестирование веб-приложения Bug Reportery
+# Тестирование веб-приложения BugReportery
 
 **Сайт**: [https://bugreportery.qatest.tech](https://bugreportery.qatest.tech)  
 **Репозиторий тестовой документации**: [webersrs123/bugreportery-test](https://github.com/webersrs123/bugreportery-test)
 
 ## О проекте
-**Bug Reportery** – веб-приложение для создания и отслеживания баг-репортов.  
+**BugReportery** – веб-приложение для создания и отслеживания баг-репортов.  
 Стек: статический фронтенд (GitHub Pages), бэкенд и БД – **Supabase** (аутентификация, таблицы, политики RLS).  
 В рамках портфолио проводится **полное тестирование** приложения, включая:
 
