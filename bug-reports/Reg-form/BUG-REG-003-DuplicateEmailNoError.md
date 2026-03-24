@@ -32,9 +32,9 @@
 - Должна быть ошибка: «Пользователь с таким email уже зарегистрирован».
 
 ## Вложения
-- **Скриншот сообщения об успехе:** [bug-003-success-message.png](../../attachments/reg-form/bug-003-success-message.png)
-- **Скриншот консоли со статусом 200:** [bug-003-console-200.png](../../attachments/reg-form/bug-003-console-200.png)
-- **HAR-файл запроса:** [bug-003-duplicate-email.har](../../attachments/reg-form/bug-003-duplicate-email.har)
+- **Скриншот сообщения об успехе:** [bug-003-success-message.png](../../attachments/Reg-form/bug-003-success-message.png)
+- **Скриншот консоли со статусом 200:** [bug-003-console-200.png](../../attachments/Reg-form/bug-003-console-200.png)
+- **HAR-файл запроса:** [bug-003-duplicate-email.har](../../attachments/Reg-form/bug-003-duplicate-email.har)
 
 
 

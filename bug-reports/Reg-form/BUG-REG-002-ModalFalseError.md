@@ -44,10 +44,10 @@ text
 
 ## Вложения
 - **Скриншот сообщения об ошибке в модалке:** [bug-002-modal-error.png](../../attachments/reg-form/bug-002-modal-error.png)
-- **Скриншот консоли с ошибкой 500:** [bug-002-console-error.png](../../attachments/reg-form/bug-002-console-error.png)
-- **Скриншот ошибки 500 в Network:** [bug-002-500-error.png](../../attachments/reg-form/bug-002-500-error.png)
-- **Лог консоли:** [bug-002-console.log](../../attachments/reg-form/bug-002-console.log)
-- **HAR-файл:** [bug-002-network.har](../../attachments/reg-form/bug-002-network.har)
+- **Скриншот консоли с ошибкой 500:** [bug-002-console-error.png](../../attachments/Reg-form/bug-002-console-error.png)
+- **Скриншот ошибки 500 в Network:** [bug-002-500-error.png](../../attachments/Reg-form/bug-002-500-error.png)
+- **Лог консоли:** [bug-002-console.log](../../attachments/Reg-form/bug-002-console.log)
+- **HAR-файл:** [bug-002-network.har](../../attachments/Reg-form/bug-002-network.har)
 
 ## Дополнительная информация
 - Проблема не всегда воспроизводится: иногда первый запрос падает с 500, но повторный (или фоновая обработка) завершается успешно.
