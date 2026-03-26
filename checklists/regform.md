@@ -13,9 +13,10 @@
 | AUTH-006 | Успешная авторизация | ❌ | [BUG-REG-006](../bug-reports/Reg-form/BUG-REG-006-no-redirect-after-login.md) | Нет редиректа после входа |
 | AUTH-007 | Авторизация с неверным паролем | ❌ | [BUG-REG-007](../bug-reports/Reg-form/BUG-REG-007-wrong-password-english.md) | Сообщение на английском |
 | AUTH-008 | Авторизация с несуществующим пользователем | ✅ | – | |
-| AUTH-009 | Выход из системы (логаут) | ❌ | [BUG-REG-008](../bug-reports/Reg-form/BUG-REG-008-logout-button-remains.md) | Кнопка «Выход» остаётся после логаута |
+| AUTH-009 | Выход из системы (логаут) | ✅ | [BUG-REG-008](../bug-reports/Reg-form/BUG-REG-008-logout-button-remains.md) | Исправлен|
 | AUTH-010 | Восстановление пароля (если есть) | ❌ | [BUG-REG-009](../bug-reports/Reg-form/BUG-REG-009-no-password-recovery.md) | Функция отсутствует |
 | AUTH-011 | Сессия - сохраняется после закрытия браузера | ❌ |[BUG-REG-010](../bug-reports/Reg-form/BUG-REG-010-session-lost.md) | Сессия не сохраняется |
+
 
 ## API (Postman / Supabase)
 
